@@ -13,4 +13,4 @@ RUN npm install
 
 WORKDIR /app/backend
 
-ENTRYPOINT [ "node", "main.js" ]
+ENTRYPOINT [ "node", "server.js" ]
