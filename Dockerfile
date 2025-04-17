@@ -11,4 +11,6 @@ COPY backend/ backend/
 
 RUN npm install
 
+WORKDIR /app/backend
+
 ENTRYPOINT [ "node", "main.js" ]
